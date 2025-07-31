@@ -1,74 +1,71 @@
-# AI Interview Prep (MERN Stack)
+🧠 AI Interview Prep (MERN Stack)
+An AI-powered mock interview platform built with the MERN stack – MongoDB, Express.js, React, Node.js – designed to help users prepare for technical, HR, and behavioral interviews. Leverage real-time feedback and dynamic AI-generated questions to boost your confidence and readiness.
 
-An AI-powered mock interview platform built with the **MERN stack (MongoDB, Express.js, React, Node.js)** that helps users practice technical and HR interviews using intelligent question generation and real-time feedback.
+🚀 Features
+🎯 AI-Powered Question Generation – Personalized questions based on selected topics and difficulty levels.
 
----
+⚡ Real-Time Feedback – Instant evaluation with actionable improvement tips.
 
-## 🚀 Features
+🧑‍💼 Multiple Interview Modes – Choose between HR, Technical, or Behavioral rounds.
 
-- **AI-Powered Question Generation** – Dynamic interview questions based on selected topics.
-- **Real-Time Feedback** – Get instant evaluation and improvement tips.
-- **Multiple Interview Modes** – HR, Technical, and Behavioral.
-- **Voice & Text Support** – Interact with the AI using speech or text.
-- **Progress Tracking** – View past sessions and performance analytics.
-- **Authentication & User Profiles** – Secure login/signup with personalized dashboards.
+🎤 Voice & Text Interaction – Communicate with the AI using voice or text input.
 
----
+📊 Progress Tracking – Analyze past sessions and monitor growth over time.
 
-## 🛠️ Tech Stack
+🔐 User Authentication & Profiles – Secure login system with individual dashboards.
 
-**Frontend:**
-- React.js (with Hooks & Context API)
-- Tailwind CSS / Material UI
+🛠️ Tech Stack
+🔹 Frontend
+React.js (with Hooks & Context API)
 
-**Backend:**
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT Authentication
+Tailwind CSS / Material UI
 
-**AI Integration:**
-- OpenAI API (or Gemini API)
+🔹 Backend
+Node.js
 
-**Other:**
-- REST APIs
-- Deployment: Vercel (frontend) & Render/Heroku (backend)
+Express.js
 
----
+MongoDB (Mongoose)
 
-## 📂 Folder Structure
+JWT for Authentication
 
-```bash
+🔹 AI Integration
+OpenAI API (GPT-4 or GPT-3.5)
+
+(Optional: Gemini API support)
+
+🔹 Others
+RESTful APIs
+
+Deployment: Vercel (Frontend) & Render/Heroku (Backend)
+
+📁 Folder Structure
 ai-interview-prep/
 │
 ├── client/             # React frontend
-│   ├── src/
-│   ├── public/
-│   └── package.json
+│   ├── src/            # React components, context, hooks
+│   ├── public/         # Static assets
+│   └── package.json    # Frontend dependencies
 │
 ├── server/             # Node.js backend
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── config/
-│   └── server.js
+│   ├── models/         # Mongoose models
+│   ├── routes/         # Express routes
+│   ├── controllers/    # Business logic
+│   ├── config/         # DB and environment configs
+│   └── server.js       # Entry point
 │
-├── .env
-├── package.json
+├── .env                # Environment variables
+├── package.json        # Root-level config
 └── README.md
-⚡ Installation & Setup
-1. Clone the repository:
-git clone https://github.com/<your-username>/ai-interview-prep.git
-cd ai-interview-prep
+⚙️ Installation & Setup
+Follow these steps to run the project locally:
+
+Clone the Repository
+git clone https://github.com/keshavkumarr0/interview-genius.git
+cd interview-genius
+ 
+   Setup Backend
+   Copy
+   Edit
 
 
-
-
-
-# Install backend dependencies
-cd server
-npm install
-
-# Install frontend dependencies
-cd ../client
-npm install
